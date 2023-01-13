@@ -1,0 +1,51 @@
+body{
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.container  .cabecera .textos{
+    display: flex;
+    flex-direction: column;
+}
+.container .cabecera{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.container .cabecera img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.container .cabecera strong{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .cabecera span{
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 40%;
+}
+
+.container .boton button{
+    margin-left: 16px;
+    border: 0;
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-weight: bold;
+}
